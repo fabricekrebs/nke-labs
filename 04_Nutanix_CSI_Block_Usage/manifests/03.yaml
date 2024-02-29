@@ -4,13 +4,13 @@ metadata:
   name: my-pvc-clone
 spec:
   dataSource:
-   name: my-pvc
-   kind: PersistentVolumeClaim
- accessModes:
-   - ReadWriteOnce
- resources:
-   requests:
-     storage:  6Gi
+    name: my-pvc
+    kind: PersistentVolumeClaim
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage:  6Gi
 ---
 apiVersion: apps/v1
 kind: Deployment

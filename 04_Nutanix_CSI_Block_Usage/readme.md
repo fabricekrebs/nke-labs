@@ -291,6 +291,7 @@ You can have (only) one default Storage Class on your kubernetes cluster. If you
    >       port: 80
    >       targetPort: 80
    >```
+   > 1. Apply it with command `kubectl apply -f <your manifest file> -n <your namespace>`
    
    </details><br>
 
