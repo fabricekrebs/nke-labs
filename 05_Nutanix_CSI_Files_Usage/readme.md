@@ -34,7 +34,7 @@ Two Nutanix Files mode can be created :
    <summary>Answer</summary>
 
    > 1. Create a manifest to deploy :<br>
-        Manifest file : ./manifests/01.yaml
+        Manifest file : ./manifests/07.yaml
    >    ```yaml
    >    ---
    >    kind: StorageClass
@@ -71,7 +71,7 @@ Two Nutanix Files mode can be created :
    <summary>Answer</summary>
 
    > 1. Create a manifest to deploy :<br>
-        Manifest file : ./manifests/02.yaml
+        Manifest file : ./manifests/08.yaml
    >    ```yaml
    >    ---
    >    apiVersion: v1
@@ -91,7 +91,7 @@ Two Nutanix Files mode can be created :
    <summary>Answer</summary>
 
    > 1. Create a manifest to deploy :<br>
-        Manifest file : ./manifests/03.yaml
+        Manifest file : ./manifests/09.yaml
    >    ```yaml
    >    ---
    >    apiVersion: storage.k8s.io/v1
@@ -144,7 +144,7 @@ Two Nutanix Files mode can be created :
    <summary>Answer</summary>
 
    > 1. Create a manifest to deploy :<br>
-        Manifest file : ./manifests/04.yaml
+        Manifest file : ./manifests/10.yaml
    >    ```yaml
    >    ---
    >    apiVersion: v1
@@ -212,7 +212,7 @@ Two Nutanix Files mode can be created :
    <summary>Answer</summary>
 
    > 1. Create a manifest to deploy :<br>
-        Manifest file : ./manifests/05.yaml
+        Manifest file : ./manifests/11.yaml
    >    ```yaml
    >    ---
    >    apiVersion: v1
