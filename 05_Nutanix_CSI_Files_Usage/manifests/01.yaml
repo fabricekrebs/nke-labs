@@ -10,5 +10,5 @@ parameters:
   nfsServer: <your file server>
   nfsPath: /<your share name>
   storageType: NutanixFiles
-reclaimPolicy: Delete or Retain
+reclaimPolicy: Retain
 volumeBindingMode: Immediate

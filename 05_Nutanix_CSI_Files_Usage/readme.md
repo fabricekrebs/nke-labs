@@ -48,7 +48,7 @@ Two Nutanix Files mode can be created :
    >      nfsServer: <your file server>
    >      nfsPath: /<your share name>
    >      storageType: NutanixFiles
-   >    reclaimPolicy: Delete or Retain
+   >    reclaimPolicy: Delete
    >    volumeBindingMode: Immediate
    >    ```
 

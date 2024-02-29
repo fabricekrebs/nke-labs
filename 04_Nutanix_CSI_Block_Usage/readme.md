@@ -243,13 +243,13 @@ You can have (only) one default Storage Class on your kubernetes cluster. If you
    >   name: my-pvc-clone
    > spec:
    >   dataSource:
-   >    name: my-pvc
-   >    kind: PersistentVolumeClaim
-   >  accessModes:
-   >    - ReadWriteOnce
-   >  resources:
-   >    requests:
-   >      storage:  6Gi
+   >     name: my-pvc
+   >     kind: PersistentVolumeClaim
+   >   accessModes:
+   >     - ReadWriteOnce
+   >   resources:
+   >     requests:
+   >       storage:  6Gi
    > ---
    > apiVersion: apps/v1
    > kind: Deployment
@@ -409,6 +409,8 @@ You can have (only) one default Storage Class on your kubernetes cluster. If you
    </details><br>
 
 1. Display app in your web browser (https://localhost:8081). You should see the new content of the index file.
+
+1. Delete the existing pvc named my-pvc `kubectl delete pvc my-pvc -n <your namespace>`
 
 1. Scale your deployment to 0
    <details>
